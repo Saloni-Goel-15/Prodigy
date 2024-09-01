@@ -1,0 +1,35 @@
+#game-board {
+  background-color: black;
+  height: 95vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+.cell {
+  background-color: rgba(137, 43, 226, 0.804);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 3px solid white;
+}
+
+#message {
+  color: white;
+  text-align: center;
+  width: 300px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+#reset-button {
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 18px;
+}
